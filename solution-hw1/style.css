@@ -1,0 +1,173 @@
+*{
+    font-family: "Helvetica", sans-serif;
+    margin: 0px;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+#logoImg {
+    width: 400px;
+    padding: 24px 36px 24px 36px;
+}
+
+#bodyContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 48px 36px 48px;
+}
+
+#nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100px;
+}
+
+.navElement {
+    padding-bottom: 8px;
+}
+
+#linebreak {
+    border-color: black;
+    border-width: thick;
+    margin: 0px 36px 0px 36px;
+}
+
+/* home page */
+
+#header {
+    font-size: 24px;
+    margin: 24px 0px 24px 0px;
+}
+
+.productContainer {
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+
+
+
+    font-size: 16px;
+}
+.productContainer:hover {
+    padding: 8px 8px 8px 8px;
+    background-color: yellow;
+}
+
+.productContainer:hover .productName {
+    font-weight: bold;
+}
+
+.productImg {
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+}
+
+/* image in pdp */
+#pdpImg {
+    width: 600px;
+    height: 600px;
+
+    border: 3px solid black;
+}
+
+#productDes{
+    width: 300px;
+
+    margin: 24px 0px 24px 0px;
+}
+
+.custom{
+    width: 300px;
+    margin: 24px 0px 24px 0px;
+}
+
+.dropdown {
+    width: 300px;
+    margin: 12px 0px 12px 0px;
+    padding: 4px 0px 4px 0px;
+
+    border-color: black;
+}
+
+#total {
+    display: flex;
+    flex-direction: row;
+
+    width: 300px;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+#atcButton {
+    background-color: yellow;
+    padding: 12px 24px;
+
+    border-width: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* cart page */
+
+.cartImg {
+    width: 200px;
+    height: 200px;
+
+    border: 3px solid black;
+}
+
+.remove {
+    font-size: 16px;
+    font-weight: bold;
+    
+    margin: 12px 0px 12px 0px;
+}
+
+#cartInfo {
+    font-size: 16px;
+
+    margin: 12px 0px 24px 0px;
+    text-align: center;
+}
+
+.price {
+    margin: 16px 0px 16px 0px;
+}
+
+#linebreak2{
+    border-color: black;
+    border-width: 2px;
+
+    margin-bottom: 24px;
+
+    width: 600px;
+}
+
+#checkoutButton{
+    background-color: yellow;
+    padding: 12px 24px;
+
+    border-width: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+    margin-top: 12px;
+}
+
+
+

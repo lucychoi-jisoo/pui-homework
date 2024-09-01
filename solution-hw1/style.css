@@ -32,6 +32,11 @@
     padding-bottom: 8px;
 }
 
+.navElement:hover {
+    font-weight: bold;
+    background-color: yellow;
+}
+
 #linebreak {
     border-color: black;
     border-width: thick;

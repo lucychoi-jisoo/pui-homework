@@ -6,7 +6,7 @@
     font-size: 24px;
 }
 
-#logoImg {
+.logoImg {
     width: 400px;
     padding: 24px 36px 24px 36px;
 }
@@ -19,7 +19,7 @@
     margin: 0px 48px 36px 48px;
 }
 
-#nav {
+nav {
     display: flex;
     flex-direction: column;
     justify-content: center;

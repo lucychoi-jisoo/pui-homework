@@ -70,7 +70,7 @@ nav {
     border: 3px solid black;
 }
 
-/* image in pdp */
+/* elements in pdp */
 #pdpImg {
     width: 600px;
     height: 600px;
@@ -105,14 +105,14 @@ nav {
     font-weight: bold;
     cursor: pointer;
     display: inline-block;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 #checkoutButton {
     margin-top: 12px;
 }
 
-/* cart page */
+/* elements in cart */
 .cartImg {
     width: 200px;
     height: 200px;

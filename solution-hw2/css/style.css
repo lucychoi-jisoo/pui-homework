@@ -49,16 +49,12 @@ nav {
 
     width: 320px;
     height: 126px;
-
-    /* margin: auto; */
 }
 
 .navElement {
-    /* padding-bottom: 8px; */
-    /* flex-grow: 1; */
     margin: 0px 24px 0px 24px;
     text-align: center;
-    
+  
 }
 
 .navElement:hover {
@@ -67,9 +63,7 @@ nav {
 }
 
 .linebreak {
-    /* border-color: black; */
     border: 2px solid black;
-    /* margin: 0 36px; */
 }
 
 .productsNav{
@@ -84,7 +78,6 @@ nav {
 }
 .header {
     display: flex;
-    /* font-size: 36px; */
 
     flex-grow: 2;
 
@@ -100,18 +93,9 @@ nav {
 
 .productContainer {
     width: 285px;
-    /* padding-bottom: 12px; */
     margin-bottom: 24px;
     font-size: 16px;
 }
-
-/* .productContainer img{
-    width: 100%;
-} */
-
-/* .productContainer a{
-    width: 295px;
-} */
 
 .productContainer:hover {
     padding: 8px;
@@ -130,9 +114,6 @@ nav {
 .bodyRowContainer {
     display: flex;
     flex-direction: row;
-
-    /* width: 100%; */
-
     justify-content: space-evenly;
 }
 
@@ -198,7 +179,6 @@ nav {
     font-weight: bold;
     cursor: pointer;
     display: inline-block;
-    /* text-decoration: none; */
 }
 
 #checkoutButton {
@@ -211,10 +191,6 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-
-    /* margin-right: 64px; */
-
-
 }
 
 .productImgNremove{

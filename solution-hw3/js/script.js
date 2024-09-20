@@ -63,26 +63,45 @@ function packSizeDropdown() {
     }
 };
 
-function computePrice() {
+function glazingChange(element) {
+    // const glazingSelect = document.querySelector("#flavorDropdown")
+    const glazingPrice = parseFloat(element.value);
+
+    const packSizeSelect = document.querySelector("#packSizeDropdown");
+    const packPrice = parseFloat(packSizeSelect.value);
 
     const basePrice = 2.49;
 
-    let glazingSelect = document.querySelector("#flavorDropdown");
-    let packSizeSelect = document.querySelector("#packSizeDropdown");
-
-    let glazingPrice = parseFloat(glazingSelect.value);
-    let packPrice = parseFloat(packSizeSelect.value);
-
-    let totalPrice = (basePrice + glazingPrice) * packPrice;
+    const totalPrice = (basePrice + glazingPrice) * packPrice;
 
     document.querySelector("#total h3").textContent = "$" + totalPrice.toFixed(2);
 };
 
-document.querySelector("#flavorDropdown").addEventListener("change", computePrice);
-document.querySelector("#packSizeDropdown").addEventListener("change", computePrice);
+function packSizeChange() {
+    const packSizeSelect = document.querySelector("#packSizeDropdown");
+    const packPrice = parseFloat(packSizeSelect.value);
+
+    const glazingSelect = document.querySelector("#flavorDropdown");
+    const glazingPrice = parseFloat(glazingSelect.value);
+
+    const basePrice = 2.49;
+
+    const totalPrice = (basePrice + glazingPrice) * packPrice;
+
+    document.querySelector("#total h3").textContent = "$" + totalPrice.toFixed(2);
+}
+
+document.querySelector("#flavorDropdown").addEventListener("change", function(){
+    glazingChange(this);
+});
+document.querySelector("#packSizeDropdown").addEventListener("change", function(){
+    packSizeChange(this);
+});
 
 window.onload = function() {
     flavorDropdown();
     packSizeDropdown();
-    computePrice();  
+    glazingChange(document.querySelector("#flavorDropdown"));  
 };
+
+

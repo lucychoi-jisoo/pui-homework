@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../solution-hw3/css/style.css">
+  <title>Product Detail Page</title>
+  
+  <body>
+
+    <header class="headerContainer">
+      <a href="index.html"><img class= "logoImg" src="/solution-hw3/assets/logo/logo-01.svg" alt="logo"></a>
+      
+      <div class="navNtitle">
+        <nav>
+          <a class= "navElement product" class= "productsNav" href="index.html"><p> PRODUCTS </p></a>
+          <a class= "navElement" href="shoppingcart.html"><p> CART </p></a>
+        </nav>
+
+        <hr class="linebreak">
+
+        <div class="header">
+          <p> Original cinnamon roll </p>
+        </div>
+      </div>
+
+    </header>
+
+    <div id="pdpContainer">
+
+      <img id= "pdpImg" src="/solution-hw3/assets/products/original-cinnamon-roll.jpg" alt="apple cinnamon roll">
+
+      <div id="customizationContainer">
+        <p id="productDes">Customize our delicious, hand-made cinnamon roll to your liking!</p>
+
+        <div class="custom">
+        <p>Glazing</p>
+        <select class= "dropdown" id="flavorDropdown" name="Flavors">
+        </select>
+        </div>
+
+        <div class="custom">
+        <p>Pack size:</p>
+        <select class= "dropdown" id="packSizeDropdown" name="Size">
+        </select>
+        </div>
+
+        <div id="total">
+        <h3> $2.49</h3>
+        <button id="atcButton"> Add to cart </button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<script src="../solution-hw3/js/script.js"></script>
+  </body>
+</html>

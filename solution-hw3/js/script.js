@@ -40,9 +40,9 @@ function flavorDropdown() {
 
     let flavorSelect = document.querySelector("#flavorDropdown");
 
-    for (i = 0; i < glazing.length; i++){
+    for (let i = 0; i < glazing.length; i++){
 
-        var option = document.createElement('option');
+        let option = document.createElement('option');
     
         option.text = glazing[i].options;
         option.value = glazing[i].priceAdaptation;
@@ -53,9 +53,9 @@ function flavorDropdown() {
 function packSizeDropdown() {
     let packSelect = document.querySelector("#packSizeDropdown");
 
-    for (i = 0; i < packSize.length; i++){
+    for (let i = 0; i < packSize.length; i++){
 
-        var option = document.createElement('option');
+        let option = document.createElement('option');
 
         option.text = packSize[i].size;
         option.value = packSize[i].priceAdaptation;
@@ -64,7 +64,6 @@ function packSizeDropdown() {
 };
 
 function glazingChange(element) {
-    // const glazingSelect = document.querySelector("#flavorDropdown")
     const glazingPrice = parseFloat(element.value);
 
     const packSizeSelect = document.querySelector("#packSizeDropdown");
@@ -77,9 +76,8 @@ function glazingChange(element) {
     document.querySelector("#total h3").textContent = "$" + totalPrice.toFixed(2);
 };
 
-function packSizeChange() {
-    const packSizeSelect = document.querySelector("#packSizeDropdown");
-    const packPrice = parseFloat(packSizeSelect.value);
+function packSizeChange(element) {
+    const packPrice = parseFloat(element.value);
 
     const glazingSelect = document.querySelector("#flavorDropdown");
     const glazingPrice = parseFloat(glazingSelect.value);

@@ -122,7 +122,7 @@ document.querySelector("#packSizeDropdown").addEventListener("change", function(
 
 window.onload = function() {
     const rollType = getRollTypeFromURL();
-    document.querySelector("#pdpImg").src = `/solution-hw4/assets/products/${rolls[rollType].imageFile}`;
+    document.querySelector("#pdpImg").src = `/pui-homework/solution-hw4/assets/products/${rolls[rollType].imageFile}`;
     document.querySelector(".header p").textContent = rollType + " cinnamon roll";
     
     flavorDropdown();

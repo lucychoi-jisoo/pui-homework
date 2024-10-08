@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../solution-hw5/css/style.css">
+    <title>Product Detail Page</title>
+</head>
+  
+  <body>
+
+    <header class="headerContainer">
+      <a href="index.html"><img class= "logoImg" src="/solution-hw5/assets/logo/logo-01.svg" alt="logo"></a>
+      
+      <div class="navNtitle">
+        <nav>
+          <a class="navElement product productsNav" href="index.html"><p> PRODUCTS </p></a>
+          <a class= "navElement" href="shoppingcart.html"><p> CART </p></a>
+        </nav>
+
+        <hr class="linebreak">
+
+        <div class="header">
+          <p> Original cinnamon roll </p>
+        </div>
+      </div>
+
+    </header>
+
+    <div id="pdpContainer">
+
+      <img id= "pdpImg" src=" " alt="apple cinnamon roll">
+
+      <div id="customizationContainer">
+        <p id="productDes">Customize our delicious, hand-made cinnamon roll to your liking!</p>
+
+        <div class="custom">
+        <p>Glazing</p>
+        <select class= "dropdown" id="flavorDropdown" name="Flavors" onchange="glazingChange(this)">
+        </select>
+        </div>
+
+        <div class="custom">
+        <p>Pack size:</p>
+        <select class= "dropdown" id="packSizeDropdown" name="Size" onchange="packSizeChange(this)">
+        </select>
+        </div>
+
+        <div id="total">
+          <h3> $2.49 </h3>
+          <button id="atcButton"> Add to cart </button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/rollsData.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

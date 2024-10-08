@@ -81,7 +81,7 @@ const cart = [];
 for (let i = 0; i < rollsDataInCart.length; i++) {
     const rollData = rollsDataInCart[i];
     const imageFile = rolls[rollData.type].imageFile;
-    const imageURL = `/solution-hw5/assets/products/${imageFile}`;
+    const imageURL = `/pui-homework/solution-hw5/assets/products/${imageFile}`;
 
     const roll = new Roll(imageURL, rollData.type, rollData.glazing, rollData.size, rollData.basePrice);
     cart.push(roll);

@@ -140,7 +140,7 @@ function addToCart() {
     const packSizeSelect = document.querySelector("#packSizeDropdown");
     const packSize = parseInt(packSizeSelect.value);
     const basePrice = rolls[rollType].basePrice; 
-    const imageURL = `/solution-hw6/assets/products/${rolls[rollType].imageFile}`;
+    const imageURL = `/pui-homework/solution-hw6/assets/products/${rolls[rollType].imageFile}`;
 
 
     const addedRoll = new Roll(imageURL, rollType, glazingType, packSize, basePrice);

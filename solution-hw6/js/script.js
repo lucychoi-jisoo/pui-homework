@@ -255,7 +255,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const rollType = getRollTypeFromURL();
     if (rollType) {
-        document.querySelector("#pdpImg").src = `/solution-hw6/assets/products/${rolls[rollType].imageFile}`;
+        document.querySelector("#pdpImg").src = `/pui-homework/solution-hw6/assets/products/${rolls[rollType].imageFile}`;
         document.querySelector(".header p").textContent = rollType + " cinnamon roll";
 
         // Directly set the base price in #total h3

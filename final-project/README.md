@@ -6,10 +6,10 @@ I’ll be specifically exploring JavaScript libraries to achieve seamless, user-
 
 ## High-Fi Prototypes
 ### Prototype 1
-![Variation 1](images/readme/PrototypeOne.png)
+![Variation 1](assets/readme/PrototypeOne.png)
 
 ### Prototype 2
-![Variation 2](images/readme/PrototypeTwo.png)
+![Variation 2](assets/readme/PrototypeTwo.png)
 
 ## Usability Test
 For the usability test, I aimed to understand how the design of my homepage shapes the initial impression of me as a product designer and how effectively the navigation supports seamless movement across different sections and pages for recruiters and other users. I decided to use a think-aloud protocol, asking participants to complete simple tasks while observing their navigation and thought process.
@@ -21,13 +21,13 @@ I also received feedback on the importance of visual signifiers. Participants me
 On navigation, some participants suggested adding a bottom navigation bar with links to my existing projects or ways to contact me, such as email and resume links. I think this is a great idea, as fixed bottom navigation would complete the user journey without leaving them at a dead-end.
 
 ## Updated Design
-![Portfolio sketches](images/readme/PrototypeThree.png)
+![Portfolio sketches](assets/readme/PrototypeThree.png)
 
 Based on the feedback I received, I decided to enhance the visual hierarchy on my homepage introduction by using different font weights to distinguish various types of information. I also diversified the layout of the project thumbnails to create more visual interest, given that I'm using a single accent color for emphasis. Although there were suggestions to add more accent colors, I opted to keep just one to highlight the most important elements and maintain a clean, minimalistic design.
 
 Additionally, I increased the scroll affordance by cropping the thumbnails on the second row. This visual cue helps signal to recruiters that there are more projects to explore as they scroll down the page.
 
-![Portfolio sketches](images/readme/PrototypeFour.png)
+![Portfolio sketches](assets/readme/PrototypeFour.png)
 
 On the second page, I enhanced the navigation flow by adding a "back to project" button, making it more intuitive for users to understand the outcome of their actions. To further improve navigation, I also included a footer with links to my contact information, completing the experience loop and guiding users back to the discovery and exploration phases.
 

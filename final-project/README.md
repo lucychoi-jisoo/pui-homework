@@ -6,7 +6,7 @@ I’ll be specifically exploring JavaScript libraries to achieve seamless, user-
 
 ## High-Fi Prototypes
 ### Prototype 1
-![Variation 1](images/readme/PrototypeOne)
+![Variation 1](images/readme/PrototypeOne.png)
 
 ### Prototype 2
 ![Variation 2](images/readme/PrototypeTwo.png)

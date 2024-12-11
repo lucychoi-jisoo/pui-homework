@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Product Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../final-project/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+  </head>
+
+  <title>Portfolio Landing Page</title>
+  
+  <body>
+    <img id="heroImage" src="../final-project/assets/images/background.svg" alt="portfolio background image of a line illustration">
+
+    <nav class="nav">
+      <a class="logo" href="index.html"> ✤ </a>
+    </nav>
+
+    <!-- hero image view-->
+    <div id="heroContainer">
+      <div id="heroIntro">
+        <div id="introText">
+          <h2 class="fade-in" data-aos="fade-right" data-aos-delay="100"> Hi, I’m Lucy.</h2>
+          <p>A product designer specialized in <span id="highlightOne">research</span> and <span id="highlightTwo">business strategy</span> in B2C.</p>
+          <br>
+          <p id="timeInfo" class="fade-in" data-aos="fade-right" data-aos-delay="100">Fetching current time...</p>
+          <p class="fade-in" data-aos="fade-right" data-aos-delay="200">If you're here to chat or collaborate, I'd love to connect!</p>
+
+          <div id="logoContainer">
+            <a class="logoLink" href="https://www.cmu.edu" target="_blank">
+              <img class="schoolLogo" src="../final-project/assets/images/CMU_grey.png" alt="CMU logo" data-color="../final-project/assets/images/CMU_color.png">
+            </a>
+            <a class="logoLink" href="https://www.hcii.cmu.edu" target="_blank">
+              <img class="schoolLogo" src="../final-project/assets/images/HCII_grey.png" alt="HCII logo" data-color="../final-project/assets/images/HCII_color.png">
+            </a>
+            <a class="logoLink" href="https://nyuad.nyu.edu/en/" target="_blank">
+              <img class="schoolLogo" src="../final-project/assets/images/NYU_grey.png" alt="NYU logo" data-color="../final-project/assets/images/NYU_color.png">
+            </a>
+          </div>
+
+          <div class="navElementContainer" data-aos="flip-up">
+            <a class="navElement" href="mailto:lucychoc@andrew.cmu.com">Contact ↗</a>
+            <a class="navElement" href="https://drive.google.com/file/d/1NKiyakAP-k215z5GapmeyOtd2JwegOEC/view?usp=sharing" target="_blank"> Resume ↗ </a>
+            <a class="navElement" href="aboutme.html">About ↗</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- project grid view-->
+    <div id="container">
+      <div class="container-wrap large">
+        <a class="projectContainer" href="projectOne.html" data-aos="zoom-in-up" 
+          data-aos-offset="200" data-aos-duration="4000" 
+          data-aos-easing="ease-in-out">
+          <img class="project-image" src="../final-project/assets/images/project-one-cover.png" alt="project cover image of wireframes mockup">
+        </a>
+        <p class="text">Promoting sustainable purchases on campus</p>
+      </div>
+
+      <div class="container-wrap medium">
+        <a class="projectContainer" href="projectTwo.html" data-aos="zoom-in-up" 
+          data-aos-offset="250" data-aos-duration="4000" 
+          data-aos-easing="ease-in-out">
+          <img class="project-image" src="../final-project/assets/images/project-two-cover.png" alt="Bias Bingo">
+        </a>
+        <p class="text">Incentivizing college students to report biases in Gen AI</p>
+      </div>
+
+      <div class="container-wrap tall">
+        <div class="projectContainer" data-aos="zoom-in-up" 
+          data-aos-offset="200" data-aos-duration="4000" 
+          data-aos-easing="ease-in-out">
+          <img class="project-image" src="../final-project/assets/images/project-three-cover.png" alt="cover image of a project with an overlay that says coming soon">
+        </div>
+        <p class="text">Bringing culture through recipes</p>
+      </div>
+
+      <div class="container-wrap wide">
+        <div class="projectContainer" data-aos="zoom-in-up" 
+          data-aos-offset="300" data-aos-duration="4000" 
+          data-aos-easing="ease-in-out">
+          <img class="project-image" src="../final-project/assets/images/project-four-cover.png" alt="cover image of a project with an overlay that says coming soon">
+        </div>
+        <p class="text">Cross-collaboration among 106 people to deliver a cohesive customer experience</p>
+      </div>
+    </div>
+
+    <!-- footer-->
+    <footer id="footer">
+      <div class="footer-content">
+        <p class="footer-text">© 2024 Lucy — Made with ✨ in Pittsburgh, PA.</p>
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/lucy-choi-6541a2182" target="_blank">LinkedIn</a>
+          <a href="https://medium.com/@ji.choi_4633/overcoming-the-fear-of-speaking-up-in-meetings-as-a-new-joiner-b20c3e316b26" target="_blank">Medium</a>
+          <a href="mailto:lucychoc@andrew.cmu.com">Email</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/rough-notation/lib/rough-notation.iife.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/kursor"></script>
+    <script src="../final-project/javascript/script.js" defer></script>
+  </body>
+</html>

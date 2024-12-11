@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    background-color: #F5F5F5;
+    cursor: none; /* Hide the default cursor */
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section */
+#heroContainer {
+    margin: 24px 48px 0 48px;
+    z-index: 10;
+    background-color: transparent;
+}
+
+#heroIntro {
+    display: flex;
+    flex-direction: column;
+    height: 580px;
+    margin-bottom: 48px;
+    position: relative;
+}
+
+#heroImage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 520px;
+    height: auto;
+    z-index: 10;
+    object-position: center right;
+    padding: 120px 0 0 100px;
+}
+
+#introText {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    z-index: 1000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    background: transparent;
+}
+
+#introText h2 {
+    font-weight: 700;
+    font-size: 48px;
+    background: transparent;
+}
+
+#introText p {
+    margin: 5px 0;
+    background: transparent;
+}
+
+#highlightOne, #highlightTwo {
+    display: inline-block;
+    padding-bottom: 2px;
+    background-color: transparent;
+}
+
+#heroIntro h1 {
+    font-size: 100px;
+}
+
+/* Navigation */
+.nav {
+    padding: 16px 48px;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background: transparent;
+    transition: backdrop-filter 0.3s, background 0.3s, box-shadow 0.3s;
+    border-bottom: 0.5px solid black;
+}
+
+.nav.scrolled {
+    backdrop-filter: blur(10px);
+    background: rgba(245, 245, 245, 0.5);
+}
+
+.nav a {
+    color: black;
+    background: transparent;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #ff6347;
+}
+
+.logo {
+    font-size: 48px;
+    color: black;
+    text-decoration: none;
+    flex-grow: 2;
+}
+
+.navElementContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-top: 24px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navElement {
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.navElement:hover {
+    color: red;
+    transform: scale(1.1);
+}
+
+/* Project Grid */
+#container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); 
+    grid-auto-rows: auto; 
+    gap: 16px;
+    margin-bottom: 48px;
+    max-width: 100vw;
+    grid-auto-rows: 1fr; 
+    margin: 0 48px 48px 48px;
+}
+
+.container-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    border-radius: 12px;
+    transition: transform 0.3s, border-color 0.3s;
+    overflow: hidden;
+    height: 100%;
+}
+
+.projectContainer:hover {
+    border: 2px solid black;
+}
+
+.project-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.project-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.text {
+    font-size: 16px; 
+    text-align: left;
+    background: none;
+    box-shadow: none;
+    margin: 12px;
+    width: 100%;
+    height: auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+/* Grid Layout Adjustments for Container Wrap */
+.container-wrap.large {
+    grid-column: span 5; 
+    grid-row: span 4; 
+    position: relative;
+}
+
+.container-wrap.medium {
+    grid-column: span 3; 
+    grid-row: span 4; 
+}
+
+.container-wrap.tall {
+    grid-column: span 3; 
+    grid-row: span 4; 
+}
+
+.container-wrap.wide {
+    grid-column: span 5; 
+    grid-row: span 4; 
+}
+
+/* Logos */
+.schoolLogo {
+    width: 80px;
+    height: 80px;
+}
+
+.logoLink {
+    text-decoration: none;
+}
+
+/* Footer */
+#footer {
+    background-color: #f5f5f5;
+    padding: 20px 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #ddd;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.footer-links a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ff6347;
+}
+
+/* Miscellaneous */
+svg.rough-annotation {
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.kursor {
+    z-index: 9999;
+    background: transparent;
+}
+
+@media screen and (max-width: 375px) {
+
+    .nav {
+        padding: 12px 24px;
+        position: sticky;
+        top: 0;
+        z-index: 9999;
+        backdrop-filter: blur(10px);
+        background: rgba(245, 245, 245, 0.5);
+        transition: backdrop-filter 0.3s, background 0.3s, box-shadow 0.3s;
+        border-bottom: 0.5px solid black;
+    }
+
+    #heroImage{
+        width: 200px;
+    }
+
+    .navElement {
+        font-size: 12px;
+    }
+
+    /* Adjust grid layout */
+
+    #container {
+        display: flex;
+        flex-direction: column;  /* Stack the projects vertically */
+        align-items: center;
+        gap: 16px;
+    }
+
+    .container-wrap {
+        width: 100%;  /* Ensure the project containers take full width */
+    }
+
+    .project-image {
+        width: 100%;
+        height: auto;  /* Resize images to be smaller */
+        object-fit: contain;  /* Ensure the images are contained within the box */
+    }
+
+    /* Adjust text size and spacing */
+    .text {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    #heroContainer {
+        margin: 24px;
+    }
+
+    #introText h2 {
+        font-size: 16px;
+    }
+
+    #introText p {
+        font-size: 12px;
+    }
+
+    /* Footer */
+    #footer {
+        padding: 12px;
+        text-align: center;
+    }
+
+    .footer-text {
+        font-size: 12px;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .footer-links a {
+        font-size: 12px;
+    }
+}

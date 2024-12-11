@@ -94,6 +94,10 @@ Prompts and chat history links if applicable.
 
 Using Generative AI tools in my project helped me quickly troubleshoot issues, clarify technical jargon, and optimize code, making my learning process faster and more efficient. However, the AI sometimes provided responses that were too general or not fully applicable to my specific project, requiring me to manually adjust its suggestions. While it met my expectations for assisting with debugging and offering quick explanations, I found that it couldn't always provide context-aware solutions for complex code and interactions. Despite this, the AI helped improve the readability of my code and accelerated my understanding of JavaScript libraries and concepts. 
 
+Note: I've used the same chat in Chat GPT for personal use as well and I won't be disclosing the entire chat. If you need screenshots, I'm more that happy to provide them to you!
+
+Link to WAVE tool screenshots: https://lucychoi-jisoo.github.io/pui-homework/final-project/index.html
+
 
 
 # FP2 - Evaluation of the Final Project
